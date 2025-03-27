@@ -1,7 +1,10 @@
 # redesigned-hyprland
-<h2>Entire Hyprland universe</h2>
 '''
 sudo pacman -Syu && sudo pacman -S --needed base-devel git && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S hyprland hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar ttf-font-awesome fish flatpak qutebrowser visual-studio-code-bin brightnessctl bluetui git vim kitty waterfox vesktop-bin && yay -R firefox && yay -S git-credential-manager-bin && git-credential-manager configure && git config --global credential.credentialStore secretservice
 
 ssh-keygen -t ed25519 -C "newbiedeveloper968@gmail.com"
 '''
+
+To change kitty theme: kitty +kitten themes
+To change kitty font: kitten choose fonts
+
