@@ -5,6 +5,6 @@ sudo pacman -Syu && sudo pacman -S --needed base-devel git && git clone https://
 ssh-keygen -t ed25519 -C "newbiedeveloper968@gmail.com"
 '''
 
-To change kitty theme: kitty +kitten themes
+To change kitty theme: kitty +kitten themes<br>
 To change kitty font: kitten choose fonts
 
