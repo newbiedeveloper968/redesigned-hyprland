@@ -1,0 +1,5 @@
+1. sudo systemctl disable sddm
+2. remove the file
+3. sudo systemctl enable ly.service
+4. copy to /etc/ly
+
