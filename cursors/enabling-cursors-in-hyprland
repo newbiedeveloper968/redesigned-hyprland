@@ -1,0 +1,5 @@
+# TO ENABLE CURSORS IN HYPRLAND
+1. mv the cursors to /usr/share/icons
+2. edit the hyprland "env" and add the cursor folder name
+3. edit .config/gtk-3.0/settings.ini and add the cursor folder name
+4. Log out and in in Hyprland.

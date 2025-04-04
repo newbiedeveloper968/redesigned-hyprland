@@ -9,7 +9,7 @@ set number
 set relativenumber
 set shiftwidth=4
 syntax on
-inoremap jk "<Esc>"
+inoremap jk <Esc>
 set timeoutlen=300
 
 " Colorscheme "
