@@ -4,6 +4,7 @@ if status is-interactive
 alias c="clear"
 alias e="exit"
 alias vim='nvim'
+alias bl='bluetui'
 alias ta='todo.sh add'
 alias tl='todo.sh list'
 alias td='todo.sh do'
