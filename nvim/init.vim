@@ -35,7 +35,7 @@ set number
 set relativenumber
 set shiftwidth=4
 syntax on
-nnoremap <A-l> :w<CR>:!python %<CR>
+nnoremap <A-l> :w<CR>:term python3 -i %<CR>:normal! a<CR>
 nnoremap <A-a> :call ToggleTerminal()<CR>
 
 

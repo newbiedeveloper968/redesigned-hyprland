@@ -5,9 +5,7 @@ alias c="clear"
 alias e="exit"
 alias vim='nvim'
 alias bl='bluetui'
-alias ta='todo.sh add'
-alias tl='todo.sh list'
-alias td='todo.sh do'
+alias p='python3'
 function fish_prompt
     set_color c0c0c0
     echo -n (prompt_pwd)
