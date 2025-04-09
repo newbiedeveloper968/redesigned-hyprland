@@ -1,0 +1,1 @@
+copy the file to ~/.python_startup.py
