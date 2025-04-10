@@ -2,7 +2,9 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'rebelot/kanagawa.nvim'
 Plug 'comfysage/evergarden'
-Plug 'Mofiqul/vscode.nvim'
+Plug 'rktjmp/lush.nvim'
+Plug 'rockyzhang24/arctic.nvim', { 'branch': 'v2' }
+Plug 'GustavoPrietoP/doom-themes.nvim'
 call plug#end()
 
 
@@ -35,9 +37,9 @@ set number
 set relativenumber
 set shiftwidth=4
 syntax on
-nnoremap <A-l> :w<CR>:term python3 -i %<CR>:normal! a<CR>
+nnoremap <A-l> :w<CR>:term python %<CR>:normal! a<CR>
 nnoremap <A-a> :call ToggleTerminal()<CR>
 
 
 " Colorscheme "
-colorscheme vscode
+colorscheme doom-challenger-deep
