@@ -38,7 +38,7 @@ set relativenumber
 set shiftwidth=4
 syntax on
 set timeoutlen=300  " Set a delay for key sequences
-inoremap jk <Esc>   " Remap 'jk' to Escape in insert mode
+inoremap kj <Esc>   " Remap 'kj' to Escape in insert mode
 nnoremap <A-l> :w<CR>:term python %<CR>:normal! a<CR>
 nnoremap <A-a> :call ToggleTerminal()<CR>
 
