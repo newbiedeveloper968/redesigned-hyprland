@@ -7,6 +7,8 @@ alias e="exit"
 alias vim='nvim'
 alias bl='bluetui'
 alias p='python3'
+alias vg='vim pyc/redesigned-hyprland/ultimate-guide.txt'
+export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"
 function fish_prompt
     set_color c0c0c0
     echo -n (prompt_pwd)
