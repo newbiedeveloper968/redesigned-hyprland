@@ -8,8 +8,6 @@ alias vim='nvim'
 alias bl='bluetui'
 alias p='python3'
 alias vg='vim pyc/redesigned-hyprland/ultimate-guide.txt'
-alias gcp='git commit -m "add new markdown files" && git push'
-
 
 export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"
 function fish_prompt
