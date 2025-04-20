@@ -13,7 +13,7 @@ let g:terminal_open = 0
 function! ToggleTerminal()
   if g:terminal_open == 0
     " Open terminal, run the Python file
-    execute 'cd %:p:h | split | terminal'
+    execute 'cd %:p:h | vsplit | terminal'
     " Wait for the terminal to open before running the next commands
     call feedkeys("3j")       " Move cursor 3 lines down
     call feedkeys("a")        " Enter Insert mode
@@ -41,6 +41,7 @@ set timeoutlen=300  " Set a delay for key sequences
 inoremap kj <Esc>   " Remap 'fj' to Escape in insert mode
 nnoremap <A-l> :w<CR>:term python %<CR>:normal! a<CR>
 nnoremap <A-a> :call ToggleTerminal()<CR>
+nnoremap cw caw
 vnoremap y "+y
 nnoremap p "+p
 nnoremap P "+P
