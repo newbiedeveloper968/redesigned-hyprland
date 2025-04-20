@@ -41,7 +41,9 @@ set timeoutlen=300  " Set a delay for key sequences
 inoremap kj <Esc>   " Remap 'fj' to Escape in insert mode
 nnoremap <A-l> :w<CR>:term python %<CR>:normal! a<CR>
 nnoremap <A-a> :call ToggleTerminal()<CR>
-
+vnoremap y "+y
+nnoremap p "+p
+nnoremap P "+P
 
 " Colorscheme "
 colorscheme doom-challenger-deep
