@@ -8,13 +8,13 @@ alias vim='nvim'
 alias bl='bluetui'
 alias p='python3'
 alias vg='vim pyc/redesigned-hyprland/ultimate-guide.txt'
-# source ~/pyc/learning-python/.venv/bin/activate.fish
-
+source ~/pyc/learning-python/.venv/bin/activate.fish
 export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"
+
 function fish_prompt
     set_color c0c0c0
     echo -n (prompt_pwd)
     set_color ffffff
-    echo \n"> "
+    echo \n"➜ "
 end
 end
