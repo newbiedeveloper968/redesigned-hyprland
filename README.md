@@ -18,7 +18,7 @@ yay -S hyprland hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar t
 5) cp -r pyc/redesigned-hyprland/swaync .config/
 6) cp -r pyc/redesigned-hyprland/waybar .config/
 7) cp pyc/redesigned-hyprland/gtk-3.0/settings.ini .config/gtk-3.0/
-+++ rm -r .config/hypr && cp -r pyc/redesigned-hyprland/hypr .config/ && rm -r .config/kitty && cp -r pyc/redesigned-hyprland/kitty .config/ && cp -r pyc/redesigned-hyprland/fastfetch .config/ && cp -r pyc/redesigned-hyprland/rofi .config/ && cp -r pyc/redesigned-hyprland/swaync .config/ && cp -r pyc/redesigned-hyprland/waybar .config/ && cp pyc/redesigned-hyprland/gtk-3.0/settings.ini .config/gtk-3.0/
+<br>+++ rm -r .config/hypr && cp -r pyc/redesigned-hyprland/hypr .config/ && rm -r .config/kitty && cp -r pyc/redesigned-hyprland/kitty .config/ && cp -r pyc/redesigned-hyprland/fastfetch .config/ && cp -r pyc/redesigned-hyprland/rofi .config/ && cp -r pyc/redesigned-hyprland/swaync .config/ && cp -r pyc/redesigned-hyprland/waybar .config/ && cp pyc/redesigned-hyprland/gtk-3.0/settings.ini .config/gtk-3.0/
 
 ## ENABLING CURSORS
 1) sudo cp -r pyc/redesigned-hyprland/cursors/apple-cursor /usr/share/icons && sudo cp -r pyc/redesigned-hyprland/cursors/google-dot /usr/share/icons
