@@ -9,6 +9,8 @@ yay -S hyprland hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar t
 
 ## TURNING ON BLUETOOTH
 - systemctl enable bluetooth.service && systemctl start bluetooth.service
+### If br-connection-profile-unavailable
+- systemctl --user restart pipewire pipewire-pulse && sudo systemctl restart bluetooth
 
 ## POST
 1) rm -r .config/hypr && cp -r pyc/redesigned-hyprland/hypr .config/
