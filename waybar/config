@@ -1,8 +1,9 @@
 {
     "layer": "top",
-    "position" : "top",
+    "position" : "bottom",
     "modules-left" : ["hyprland/window"],
     "modules-center": ["hyprland/workspaces", "network" , "clock" , "pulseaudio" , "battery"],
+    "modules-right":["custom/myscript"],
 
 
 // BATTERY
@@ -40,6 +41,18 @@
         "on-click": "pavucontrol",
     },
 
+// Windows
+    "hyprland/window" : {
+        "format" : ">> {}",
+    },
+// Python accountable script
+    "custom/myscript":{
+	"format":"🎯",
+	"tooltip":"Run Python script",
+	"on-click":"alacritty -e fish -c 'python3 ~/accountable.py; fish'",
+	"class":"launcher"
+    },
+
 // CAVA
 //    "cava": {
 //        "framerate": 120,
@@ -55,8 +68,4 @@
 //        "waves" : true
 //    },
 
-// Windows
-    "hyprland/window" : {
-        "format" : ">> {}",
-    }
 }
