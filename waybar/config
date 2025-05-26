@@ -45,13 +45,6 @@
     "hyprland/window" : {
         "format" : ">> {}",
     },
-// Python accountable script
-    "custom/myscript":{
-	"format":"🎯",
-	"tooltip":"Run Python script",
-	"on-click":"alacritty -e fish -c 'python3 ~/accountable.py; fish'",
-	"class":"launcher"
-    },
 
 // CAVA
 //    "cava": {
