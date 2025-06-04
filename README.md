@@ -40,3 +40,6 @@ yay -S hyprland hyprsunset hyprlock hypridle hyprpaper rofi waybar swaync hyprsh
 
 ## PYTHON VIRTUAL ENVIRONMENT
 1) python -m venv .venv && source .venv/bin/activate.fish
+
+## Syncthing
+systemctl --user enable syncthing & systemctl --user start syncthing
