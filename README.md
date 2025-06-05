@@ -1,4 +1,5 @@
 # Redesigned Hyprland
+name: pixelatedstar
 #### DIRECTORY BASED ON: pyc/redesigned-hyprland/
 yay -S hyprland hyprsunset hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar ttf-font-awesome flatpak visual-studio-code-bin brightnessctl bluetui git alacritty neovim fastfetch fish python-pip notion-desktop imv
 
