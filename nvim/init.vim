@@ -8,6 +8,7 @@ set number
 set relativenumber
 set shiftwidth=4
 set smarttab
+set clipboard+=unnamedplus
 syntax on
 
 " Keybindings

@@ -1,7 +1,7 @@
 # Redesigned Hyprland
 name: pixelatedstar
 #### DIRECTORY BASED ON: pyc/redesigned-hyprland/
-yay -S hyprland hyprsunset hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar ttf-font-awesome flatpak visual-studio-code-bin brightnessctl bluetui git alacritty neovim fastfetch fish python-pip notion-desktop imv
+yay -S hyprland hyprsunset hyprlock hypridle hyprpaper rofi waybar swaync hyprshot waybar ttf-font-awesome flatpak visual-studio-code-bin brightnessctl bluetui git alacritty neovim fastfetch fish python-pip notion-desktop imv wl-clipboard openssh
 
 ## SETTING UP GIT AND CLONING MY HYPRLAND REPO
 1) git config --global user.name "newbiedeveloper968" && git config --global user.email "newbiedeveloper968@gmail.com" && ssh-keygen -t ed25519 -C "newbiedeveloper968@gmail.com" 
