@@ -67,11 +67,31 @@
   "layer": "top",
   "modules-left": ["clock"],
   "modules-center": [],
-  "modules-right": ["network", "battery", "tray"],
+  "modules-right": ["bluetooth", "pulseaudio", "network", "battery", "tray"],
+
   "clock": {
-    "format": "  {:%H:%M}"
+    "format": " {:%H:%M}"
   },
+
   "battery": {
-    "format": "     {capacity}%"
-  }
+    "format": " {capacity}%"
+  },
+
+  "bluetooth": {
+    "format": " {status}   ",
+    "format-disabled": " off",
+    "on-click": "blueman-manager"
+  },
+
+  "pulseaudio" : {
+     "format" : "{icon} {volume}    ",
+     "format-bluetooth" : " {volume}    ",
+     "format-muted": "        ",
+       "format-icons" : {
+           "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
+           "headphone": "",
+           "hands-free": "",
+       },
+       "on-click": "pavucontrol",
+   },
 }
