@@ -5,8 +5,11 @@ yay -S hyprland hyprsunset hyprlock hypridle hyprpaper rofi waybar swaync hyprsh
 
 ## SETTING UP GIT AND CLONING MY HYPRLAND REPO
 1) git config --global user.name "newbiedeveloper968" && git config --global user.email "newbiedeveloper968@gmail.com" && ssh-keygen -t ed25519 -C "newbiedeveloper968@gmail.com" 
-2) nvim ~/.ssh/id_ed25519.pub - copy that and create a new gpg token.
-3) git clone git@github.com:newbiedeveloper968/redesigned-hyprland.git
+2) git remote set-url origin git@github.com:newbiedeveloper968/redesigned-hyprland.git
+3) nvim ~/.ssh/id_ed25519.pub - copy that and create a new gpg token.
+4) git clone git@github.com:newbiedeveloper968/redesigned-hyprland.git
+
+git config --global user.name "newbiedeveloper968" && git config --global user.email "newbiedeveloper968@gmail.com" && ssh-keygen -t ed25519 -C "newbiedeveloper968@gmail.com" && git remote set-url origin git@github.com:newbiedeveloper968/redesigned-hyprland.git && nvim ~/.ssh/id_ed25519.pub
 
 ## TURNING ON BLUETOOTH
 - systemctl enable bluetooth.service && systemctl start bluetooth.service
