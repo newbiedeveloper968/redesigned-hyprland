@@ -47,3 +47,6 @@ git config --global user.name "newbiedeveloper968" && git config --global user.e
 
 ## Syncthing
 systemctl --user enable syncthing & systemctl --user start syncthing
+
+## Network manager
+sudo systemctl enable NetworkManager.service && sudo systemctl start NetworkManager.service
