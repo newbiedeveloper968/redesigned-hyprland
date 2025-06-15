@@ -1,14 +1,13 @@
-
 [colors.primary]
-background = "0x000000"
-foreground = "0xffffff"
+background = "#1e1e1e"
+foreground = "#c5c8c6"
 
 [font]
 size = 14
 
 [window.padding]
-x = 5
-y = 5
+x = 40
+y = 40
 
 [general]
 live_config_reload = true
