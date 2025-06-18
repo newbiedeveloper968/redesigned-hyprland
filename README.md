@@ -50,3 +50,7 @@ systemctl --user enable syncthing & systemctl --user start syncthing
 
 ## Network manager
 sudo systemctl enable NetworkManager.service && sudo systemctl start NetworkManager.service
+
+'''
+sudo rm -r .config/hypr
+'''
